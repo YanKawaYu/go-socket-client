@@ -39,6 +39,17 @@ It's recommended that the version of cmake should be newer than 3.6 and older th
 
 The cmake in CentOS is too old to be used, therefore we download a newer cmake from official site manually.
 
+- **MacOS**
+
+```bash
+ $ sudo brew update && sudo brew install git python cmake unzip wget
+ $ cd /opt && wget https://dl.google.com/android/repository/android-ndk-r16b-linux-x86_64.zip
+ $ unzip android-ndk-r16b-linux-x86_64.zip -d .
+ $ echo "export NDK_ROOT=/opt/android-ndk-r16b" >> ~/.bashrc && source ~/.bashrc
+```
+
+Install XCode from AppStore.
+
 ### Get Go-socket-client
 
 ```bash
@@ -68,6 +79,8 @@ If the building process completed successfully, the result librarys `libs` would
 If the building process completed successfully, the result library `gotcp.framework` would be under the relative path `cmake_build/OSX/Darwin.out`.
 
 ### Examples
+
+There are examples for Android app and iOS app in `examples` directory. Make sure you change the ip address and port number to your own server's before you run the projects.
 
 ## Contributing
 

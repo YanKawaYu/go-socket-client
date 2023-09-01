@@ -7,6 +7,7 @@ verinfo.h
 
 # Python
 *.pyc
+__pycache__
 
 # Prerequisites
 *.d
