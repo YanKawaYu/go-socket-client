@@ -47,7 +47,7 @@ def gen_revision_file(version_file_path, tag=''):
 ''' % (revision, path, build_time, tag)
 
     with open('%s/verinfo.h' % version_file_path, 'wb') as f:
-        f.write(contents)
+        f.write(contents.encode())
         f.flush()
 
 def remove_cmake_files(path):

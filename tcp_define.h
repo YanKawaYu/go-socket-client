@@ -9,6 +9,7 @@
 #define tcp_define_h
 
 #include <functional>
+#include <vector>
 
 //修改这个枚举必须同时修改tcp_client.cpp中的map！！！
 //安卓TcpClient类中的定义也必须同时修改！！！
