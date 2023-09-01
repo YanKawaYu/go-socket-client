@@ -178,8 +178,8 @@ def main(incremental, archs, target_option='', tag=''):
             return
 
 if __name__ == '__main__':
-    # archs = set(['armeabi-v7a'])
+    archs = set(['armeabi-v7a'])
 
     # with simulator support
-    archs = set(['arm64-v8a','armeabi-v7a','x86_64'])
+    # archs = set(['arm64-v8a','armeabi-v7a','x86_64'])
     main(False, archs)

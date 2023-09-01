@@ -1,4 +1,4 @@
-# go-socket-client
+# go-socket-client [![Build Status](https://github.com/YanKawaYu/go-socket-client/workflows/Go-socket-client/badge.svg?branch=main)](https://github.com/YanKawaYu/go-socket-client/actions?query=branch%3Amain)
 Go-socket-client is the client library for the [go-socket](https://github.com/YanKawaYu/go-socket) server. It's written by C++, therefore it can be used on different platforms including Windows, MacOS, iOS, Android, etc.
 
 ## Getting started
